@@ -3,5 +3,21 @@ public class App {
         int[] original = { 5, 3, 4, 1, 2 };
         int[] b = original.clone();
         int[] c = original;
+
+        //USAR EL METODO DEL ARCHIVO(clase) BUBBLE
+        //INSTANCIAR el archivo BUBBLE
+        //INSTANCIA la clase BUBBLe
+        Bubble bubble = new Bubble();
+
+        printArreglo(b);
+        bubble.sort(b);
+        printArreglo(b);
+    }
+
+    public static void printArreglo(int[] arr){
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " - ");
+        }
+        System.out.println();
     }
 }
