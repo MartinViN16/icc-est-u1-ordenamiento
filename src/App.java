@@ -27,6 +27,15 @@ public class App {
         selection.sort(c);
         System.out.println("Ordenado asc:");
         printArreglo(c);
+
+        System.out.println("\n--- Selection Insertion ---\n");
+
+        System.out.println("Original:");
+        printArreglo(c);
+        InsertionSort insertion = new InsertionSort();
+        insertion.sort(c);
+        System.out.println("Ordenado Des:");
+        printArreglo(c);
     }
 
     public static void printArreglo(int[] arr) {
