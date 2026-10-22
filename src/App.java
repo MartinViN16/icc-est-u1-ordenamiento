@@ -15,6 +15,8 @@ public class App {
         Bubble bubble = new Bubble();
         //INSTANCIA la clase SELECTION
         Selection selection = new Selection();
+        //INSTANCIA la clase INSERTION
+        InsertionSort insertion = new InsertionSort();
 
         System.out.println("\nBubble sort\n");
 
@@ -34,7 +36,6 @@ public class App {
 
         System.out.println("Original:");
         printArreglo(d);
-        InsertionSort insertion = new InsertionSort();
         insertion.sort(d);
         System.out.println("Ordenado Des:");
         printArreglo(d);
