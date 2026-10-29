@@ -11,8 +11,10 @@ public class App {
         //runEjemplosPrimitivos();
         // runEjemplosObjetos();
         // runComparators();
-        runComparatorsObj();
-        runComparatorsObj2();
+        // runComparatorsObj();
+        // runComparatorsObj2();
+
+        Comparators comparators = new Comparators();
 
     }
 
